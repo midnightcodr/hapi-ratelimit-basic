@@ -1,0 +1,33 @@
+{
+  "name": "hapi-ratelimit-basic",
+  "version": "0.1.0",
+  "description": "hapi.js plugin that does global and/or route specific rate limit control using redback",
+  "main": "lib/index.js",
+  "dependencies": {
+    "hoek": "^2.4.1",
+    "redback": "^0.4.0",
+    "hapi": "^6.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/midnightcodr/hapi-ratelimit-basic.git"
+  },
+  "keywords": [
+    "rate",
+    "limit",
+    "hapi",
+    "hapijs",
+    "redback",
+    "plugin"
+  ],
+  "author": "midnightcodr",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/midnightcodr/hapi-ratelimit-basic/issues"
+  },
+  "homepage": "https://github.com/midnightcodr/hapi-ratelimit-basic"
+}
