@@ -10,7 +10,6 @@ var Hapi=require('hapi')
 
 // global rate limit setting
 server.pack.register({
-	name: 'hapi-ratelimit-basic',
 	plugin: require('hapi-ratelimit-basic'),
 	options: rateOpts
 }, function(err) {
