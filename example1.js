@@ -3,8 +3,8 @@ var Hapi=require('hapi')
 	, rateOpts={
 		namespace: 'requests-ratelimit',
 		global: {
-			limit: 60,
-			duration: 60 
+			limit: 5,
+			duration: 10 
 		}
 	};
 
